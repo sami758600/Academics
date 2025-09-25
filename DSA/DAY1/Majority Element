@@ -1,0 +1,13 @@
+class Solution(object):
+    def majorityElement(self, nums):
+        d={}
+        n=len(nums)//2
+        for x in nums:
+            if x in d:
+                d[x]+=1
+            else:
+                d[x]=1
+        
+        for x in d:
+            if d[x]>n:
+                return x
