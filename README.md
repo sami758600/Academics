@@ -7,17 +7,13 @@ I’ll be organizing problem-solving progress, notes, and mini-projects here.
 
 ## 📂 Repository Structure
 
-academics/
-│
-├── dsa/                # Data Structures & Algorithms practice
-│   ├── day1/           # Problems solved on Day 1
-│   ├── day2/           # Problems solved on Day 2
-│   └── ...       
-│
-├── notes/              # Subject-wise notes (to be added later)
-│
-└── miniprojects/       # Mini-projects & course projects(to be added later)
-    └── ...  
+- **academics/**
+  - **dsa/** – Data Structures & Algorithms practice
+    - day1/ – Problems solved on Day 1
+    - day2/ – Problems solved on Day 2
+  - **notes/** – Subject-wise notes (to be added later)
+  - **miniprojects/** – Mini-projects & course projects (to be added later)
+
 
 
 
