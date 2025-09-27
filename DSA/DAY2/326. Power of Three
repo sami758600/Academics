@@ -1,0 +1,11 @@
+import math
+class Solution(object):
+    def isPowerOfThree(self, n):
+        if n>0:
+            a=round(math.log(n)/math.log(3))
+            return 3**a==n
+        return False       
+
+
+
+        
