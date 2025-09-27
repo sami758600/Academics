@@ -61,4 +61,45 @@ I solved 3 problems using **dictionary/hashmap** based approaches.
 
 ---
 
-⭐ This is part of my **DSA consistency challenge** — solving problems daily and documenting my progress.
+
+# 📅 DSA Practice – Day 2  
+
+Today’s focus was on **math-based problems** from LeetCode involving powers of integers.  
+I solved 2 problems.  
+
+---
+
+## ✅ Problems Solved
+
+### 1. [342. Power of Four](https://leetcode.com/problems/power-of-four/)
+- **Approach:**  
+  - Used logarithms: check if `log₄(n)` is an integer.  
+  - Implemented by rounding `log(n)/log(4)` and verifying with `4^a == n`.  
+- **Code Used:** `math.log()` based check.  
+- **Alternative Approaches:**  
+  - Bit manipulation tricks (`n & (n-1) == 0` + mask check).  
+  - Iterative division by 4.
+
+---
+
+### 2. [326. Power of Three](https://leetcode.com/problems/power-of-three/)
+- **Approach:**  
+  - Similar to Power of Four → check if `log₃(n)` is an integer.  
+  - Verified by rounding and checking `3^a == n`.  
+- **Code Used:** `math.log()` based check.  
+- **Alternative Approaches:**  
+  - Iterative division by 3.  
+  - Using the maximum power of 3 that fits in 32-bit integer range.
+
+---
+
+## 📊 Learnings
+- Gained confidence in applying **math + logarithms** in DSA problems.  
+- Noticed potential pitfalls of **floating-point precision** with logs.  
+- Explored **alternative approaches** (division vs bit manipulation).  
+- Reinforced idea that **multiple paths exist** to solve the same problem.  
+
+---
+
+⭐ Part of my **DSA consistency challenge** — documenting progress problem by problem.
+
