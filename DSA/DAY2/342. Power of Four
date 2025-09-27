@@ -1,0 +1,9 @@
+import math
+class Solution(object):
+    def isPowerOfFour(self, n):
+        if n>0:
+            a=round(math.log(n)/math.log(4))
+            return 4**a==n
+        else:
+            return False
+        
